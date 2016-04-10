@@ -1,0 +1,53 @@
+/==
+    настроить рабочую версию
+        *webpack
+            http://webpack.github.io/docs/list-of-hints.html
+        nodeJs
+        mongodb
+            http://mongoosejs.com/docs/index.html
+        reactJs
+            http://gaearon.github.io/react-hot-loader/getstarted/
+            http://gaearon.github.io/react-hot-loader/
+        *push notification
+            https://notifications.spec.whatwg.org/
+            http://w3c.github.io/push-api/
+        *service workers
+            http://www.html5rocks.com/en/tutorials/service-worker/introduction/
+            https://developer.mozilla.org/ru/docs/Web/API/Service_Worker_API
+        *redux
+            http://redux.js.org/
+            https://habrahabr.ru/post/269831/
+
+/==
+    описание проекта
+       Проект для того чтобы поздравить жену с днем рождения , суть в том чтобы она ходила по разным местам и и в момент когда она будет находится
+       в нужном месте и  нужное время ей буду задаватся опеределнные загадки
+        Структура проекта
+
+            * Логин (ее имя и кокаета дата)
+            * Список мест которые она должна посетить
+                по тапу на элимент списка он разворачивается с описанием
+                    **описание
+                        Дата и время
+                        Место
+                        таймер, сколько осталось времени до того как эта загадка исчезнет
+                        поазать ноую загадку (ноая загадка содержит туже загадку но другое место и время )
+            *push notification
+                https://notifications.spec.whatwg.org/
+                http://w3c.github.io/push-api/
+            *service workers
+                http://www.html5rocks.com/en/tutorials/service-worker/introduction/
+                https://developer.mozilla.org/ru/docs/Web/API/Service_Worker_API
+            *redux
+                http://redux.js.org/
+                https://habrahabr.ru/post/269831/
+
+/==
+    разработка
+        Front-end будет реализоан на ReactJS and Material design
+        Backend на nodeJS and mongodb
+        Логин
+            взять код с проекта odessa-chat
+        Список
+           Для начала можно взять за осноу пример из документации реакта
+        Нотификации
